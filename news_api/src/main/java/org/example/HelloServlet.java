@@ -14,7 +14,7 @@ public class HelloServlet extends HttpServlet {
         res.setCharacterEncoding("UTF-8");
 
         PrintWriter out = res.getWriter();
-        out.print("{\"message\": \"Hello, World!\"}");
+        out.print("{\"message\": \"Hello, nuca!\"}");
         out.flush();
     }
 
